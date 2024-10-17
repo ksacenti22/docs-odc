@@ -198,10 +198,6 @@ All customer production runtime application data:
 
 A network namespace isolates each stage [within each organization's Runtime](#isolation-of-stages).
 
-### File Integrity Monitoring
-
-File Integrity Monitoring performs automated scans and alerts the [Computer Security Incident Response Team](#computer-security-incident-response-team-csirt) to unauthorized activity or file changes.
-
 ### High-availability in-region
 
 Each Runtime stage has an isolated Amazon Aurora Serverless database. The database for the Production stage is designed to support high availability, with the ability to add a read replica in a different Availability Zone (AZ) to ensure immediate failover in the event of an AZ outage or failure.
